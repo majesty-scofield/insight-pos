@@ -119,7 +119,7 @@
 
     //switch theme code
     var theme = <?php echo json_encode($theme); ?>;
-    if(theme == 'dark') {
+    if(theme === 'dark') {
         $('body').addClass('dark-mode');
         $('#switch-theme i').addClass('dripicons-brightness-low');
     }
